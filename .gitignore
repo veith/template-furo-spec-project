@@ -1,0 +1,7 @@
+.furo
+.idea
+coverage
+build
+dist
+node_modules/
+__tmp

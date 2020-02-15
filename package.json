@@ -1,0 +1,27 @@
+{
+  "name": "spec-template",
+  "version": "0.0.1",
+  "description": "",
+  "homepage": "",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "license": "MIT",
+  "main": "furo-catalog.js",
+  "scripts": {
+    "build": "node_modules/@furo/specs/_scripts/build.js",
+    "init": "./node_modules/@furo/specs/_scripts/init.js"
+  },
+  "dependencies": {
+    "@furo/specs": "^0.49.0"
+  },
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=10.0"
+  }
+}
