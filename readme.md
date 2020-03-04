@@ -20,17 +20,6 @@ Install your additional spec types and register them in the furo.spec.conf.json.
 To edit the specs, you can use a json editor or you can use [the api designer](http://api.designer.furo.pro/). 
 
 
-## Manual Installation
-- mkdir my-spec-project
-- cd my-spec-project
-- npm init
-- Run `npm install --save-dev @furo/specs` to install the tools.
-- Add a `furo.spec.conf.json` to the root folder of your spec project. 
-  An example of a config file can be found in the `~/node_modules/@furo/spec/` folder. 
-
-> **TIPP** copy the example file, remove the packages, add your packages.
-    
-
 ## Usage of spec builder
 
 To quickly add types and services for a package, just add them in the packages section of the conf. 
